@@ -40,10 +40,9 @@ theme = "roadster"
   mainSections = ["post", "docs"]
   CustomHeadHTML = "" # Add custom HTML in the <head> 
 
-[params.author]
-  name = "John Doe"
-  bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
-  avatar = "img/avatar.png"
+# Authorbox data comes from author content bundles.
+# See examplesite/content/authors/john-doe/_index.md and
+# examplesite/content/docs/customization.md for the supported setup.
 
 [Params.logo]
   subtitle = "Streamlined design, enhanced functionality" # Logo subtitle
